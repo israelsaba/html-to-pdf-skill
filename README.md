@@ -24,6 +24,10 @@ cp -R html-to-pdf-skill/. ~/.config/opencode/skills/html-to-pdf/
 
 The same directory can be copied to `~/.hermes/skills/html-to-pdf/`, `~/.claude/skills/html-to-pdf/`, or `~/.codex/skills/html-to-pdf/`. Start a new agent session after installation.
 
+## Safe Permissions
+
+The skill needs network access only to the public or explicitly authorized URLs the user names, write access only to the chosen PDF output folder, and browser execution through Playwright. Keep shell access limited to the renderer command. Do not grant access to a live browser profile, unrelated home directories, credentials, or private pages without explicit authorization.
+
 ## Requirements
 
 The renderer requires Python 3, Playwright, Pillow, and a Chromium browser:
