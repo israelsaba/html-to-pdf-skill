@@ -8,6 +8,17 @@ timestamp: 2026-08-19T00:00:00-03:00
 
 # HTML to PDF Agent Skill
 
+```
+░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓██████████████▓▒░░▒▓█▓▒░             ░▒▓████████▓▒░▒▓██████▓▒░       ░▒▓███████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░                ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░                ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓████████▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░                ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░                ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░                ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░         ░▒▓█▓▒░   ░▒▓██████▓▒░       ░▒▓█▓▒░      ░▒▓███████▓▒░░▒▓█▓▒░
+
+```
+
 This repository publishes the `html-to-pdf` Agent Skill and its local renderer. It captures public web pages as browser-rendered screenshots, adds source URL and timestamp provenance, and combines the captures into image-based PDFs.
 
 The skill is the main product. The Python renderer is supporting tooling for the workflow.
@@ -69,10 +80,10 @@ Stable releases use `vMAJOR.MINOR.PATCH` tags and GitHub release notes. Install 
 
 ## Sources
 
-| Source | Claim supported |
-| --- | --- |
-| [Playwright screenshots](https://playwright.dev/docs/screenshots) | Screenshot capture and full-page rendering behavior |
-| [Playwright Python API](https://playwright.dev/python/docs/api/class-page) | Page screenshot and PDF API behavior |
+| Source                                                                     | Claim supported                                     |
+| -------------------------------------------------------------------------- | --------------------------------------------------- |
+| [Playwright screenshots](https://playwright.dev/docs/screenshots)          | Screenshot capture and full-page rendering behavior |
+| [Playwright Python API](https://playwright.dev/python/docs/api/class-page) | Page screenshot and PDF API behavior                |
 
 ## License
 
